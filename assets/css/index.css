@@ -348,7 +348,7 @@ body {
      height: 317px;
  }
 }
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 470px) {
     .header-content .bold br {
         display: none;
     }
@@ -362,8 +362,15 @@ body {
         display: none;
     }
     .sections button {
-        display: block;
+        display: inline-block;
         text-align: center;
+    }
+    .sections .content-text {
+        text-align: center;
+        padding: 20px 20px;
+    }
+    .sections .content-text .small-text br {
+        display: none;
     }
     .png {
         width: 334px;
